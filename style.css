@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fce4d6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff3e0;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #d84315;
+    text-align: center;
+}
+
+h2 {
+    color: #6d4c41;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    color: #6d4c41;
+}
+
+input[type="date"],
+select,
+input[type="number"] {
+    padding: 8px;
+    width: calc(100% - 120px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #d84315;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #d84315;
+}
+
+th {
+    background-color: #ffe0b2;
+}
+
+tr:hover {
+    background-color: #ffe0b2;
+}
